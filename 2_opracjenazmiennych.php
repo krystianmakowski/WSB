@@ -50,4 +50,57 @@ echo $x,"<br>";//123
 echo gettype($text),"<br>";//string
 echo gettype($x),"<br>";//integer
 
+$text="123ssd";
+$x=(bool)$text;
+echo $x,"<br>";//123
+echo gettype($text),"<br>";//string
+echo gettype($x),"<br>";//boolean
+
+$text="10";
+$x=(unset)$text;
+echo $x,"<br>";//123
+echo gettype($text),"<br>";//string
+echo gettype($x),"<hr>";//null
+
+//rozmiar typu intger
+echo PHP_INT_SIZE,"<br>";//8
+echo PHP_INT_MIN,"<br>";//-9223372036854775808
+echo PHP_INT_MAX,"<hr>";//9223372036854775807
+
+//kontrola typu zmiennych
+$x=10;
+echo is_int($x);//1
+echo is_string($x);//1
+echo is_bool($x);
+echo is_float($x);
+echo is_null($x),"<hr>";
+
+//operator ignorowania błedów
+$w;
+echo $w;
+//echo @$w;
+echo @gettype($w),"<hr>";//null
+
+//zmienne superglobalne
+//$_GET, $_POST, $_COOKIE, $_SESSION, $_FILES, $_SERVER
+echo $_SERVER['SERVER_PORT'],"<br>";//80
+echo $_SERVER['SERVER_NAME'],"<br>";
+echo $_SERVER['SCRIPT_NAME'],"<br>";
+echo $_SERVER['DOCUMENT_ROOT'],"<br>";
+
+$filelocal =$_SERVER['DOCUMENT_ROOT'];
+$filelocal .=$_SERVER['SERVER_NAME'];
+ECHO $filelocal,"<hr>";
+//stałe - nazwy stałych z dużych liter
+define("NAME","Janusz");
+echo NAME;
+define("surnamE","Nowak",true);
+echo surname,"<hr>";
+//stałe predefinowane
+echo PHP_VERSION,"<br>";
+echo PHP_OS,"<br>";
+echo __LINE__,"<br>";
+echo __FILE__,"<br>";
+echo __DIR__,"<br>";
+
  ?>

@@ -28,6 +28,13 @@ SHOW;
       <hr>
 SHOW;
       echo $text;
+
+      //nowdock
+
+      $name="Janusz";
+      echo<<<'X'
+      Imię: $name;
+      X;
      ?>
   </body>
 </html>
