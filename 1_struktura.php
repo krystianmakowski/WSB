@@ -7,7 +7,7 @@
   <body>
     <?php
       $name="Karol";
-      $surname="Kowalski"
+      $surname="Kowalski";
 
       echo "$name $surname";
       echo $name.$surname;
