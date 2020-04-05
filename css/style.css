@@ -1,0 +1,13 @@
+p{
+    border: solid 1px gray;
+    width: 50%;
+    margin: 20px;
+    padding: 30px;
+    display: inline-block;
+}
+div{
+    padding: 20px;
+    background: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+}

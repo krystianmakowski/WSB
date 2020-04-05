@@ -1,0 +1,21 @@
+body{
+    background: gray;
+}
+.wrapper:after{
+content: "";
+display: block;
+clear: both;
+}
+.text h3, .text p{
+color: blueviolet;
+margin: 10px 0;
+text-align: center;
+}
+.text{
+    float: left;
+    background-color: cornflowerblue;
+    width: 29.33%;
+    margin: 1%;
+    padding: 1%;
+    height: 150px;
+}

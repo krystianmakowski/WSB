@@ -1,0 +1,15 @@
+.wrapper{
+    background: #ffffff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20 px;
+}
+.wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    float: right;
+    margin: 10px;
+}
