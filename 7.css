@@ -1,0 +1,30 @@
+
+tr:nth-of-type(2n+1){
+    background-color: teal;
+}
+tr:nth-of-type(1){
+    background-color: yellow;
+    color: black;
+}
+table{
+    border-collapse: collapse;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    border-top: none;
+    
+}
+th{
+    border-collapse: collapse;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    border-top: none;
+    
+}
+td{
+    border-collapse: collapse;
+    border: solid 1px;
+    
+}
+

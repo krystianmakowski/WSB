@@ -1,0 +1,28 @@
+div.box{
+    height: 300px;
+    width: 500px;
+}
+p.hidden{
+    overflow: hidden;
+}
+p.scroll{
+    overflow: scroll;
+}
+p{
+    height: 20%;
+    width: 20%;
+    background: violet;
+}
+td > img {
+    width: 250px;
+}
+td.description{
+    min-width: 400px;
+    max-width: 500px;
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+}
+th{
+    border-bottom: solid 4px rgba(42, 107, 70, 0.8);
+}

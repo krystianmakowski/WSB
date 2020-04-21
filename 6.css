@@ -1,0 +1,19 @@
+.first{
+    border: solid medium red;
+    border-top: dotted thin green;
+    border-style: double;
+}
+
+.second{
+    border: solid grey;
+    border-width: 5px 10px 15px 20px;
+    border-top-style: double;
+    border-right-style: dashed;
+    border-bottom-style: groove;
+    border-left-style: ridge;
+}
+
+.third{
+    border: solid tomato;
+    border-bottom-style: none;   
+}
